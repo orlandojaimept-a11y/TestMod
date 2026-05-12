@@ -455,5 +455,5 @@ ptb_app.add_handler(CallbackQueryHandler(cb_admin_del, pattern=r"^adm_del:.+$"))
 # ── Entry point ───────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     import uvicorn
-    port = int(os.environ.get("PORT", 10000))  # Define 10000 como padrão se PORT não estiver setado
+    port = int(os.environ.get("PORT", 3000))  # Define 3000 como padrão se PORT não estiver setado
     uvicorn.run(api, host="0.0.0.0", port=port)
