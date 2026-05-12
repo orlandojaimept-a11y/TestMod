@@ -1,0 +1,11 @@
+# Dependências — Loja Digital Bot Telegram
+# FIX: python-telegram-bot atualizado para 21.x (última estável)
+#      supabase atualizado para 2.9.x
+#      fastapi + uvicorn atualizados
+
+python-telegram-bot==21.6
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+httpx==0.27.2
+supabase==2.9.1
+python-dotenv==1.0.1
